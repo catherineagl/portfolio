@@ -78,6 +78,10 @@ export const HeroContent = styled.div`
 		align-content: space-evenly;
 		margin-top: 8vh;
 	}
+
+	@media screen and (max-width: 480px) {
+		width: 90%;
+	}
 `;
 
 export const Column1 = styled.div`
@@ -165,6 +169,10 @@ export const Column2 = styled.div`
 	@media screen and (max-width: 768px) {
 		width: 80%;
 		margin: auto;
+	}
+
+	@media screen and (max-width: 480px) {
+		width: 100%;
 	}
 `;
 

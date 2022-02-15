@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import AboutSection from './components/AboutSection';
 import CertificatesSection from './components/CertificatesSection';
+import ContactSection from './components/ContactSection';
 import HeroSection from './components/HeroSection';
 import Navbar from './components/Navbar';
 import ProjectsSection from './components/ProjectsSection';
@@ -19,6 +20,7 @@ function App() {
 			<AboutSection />
 			<ProjectsSection />
 			<CertificatesSection />
+			<ContactSection />
 		</>
 	);
 }

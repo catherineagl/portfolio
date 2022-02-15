@@ -4,6 +4,7 @@ import {
 	Form,
 	GhIcon,
 	Input,
+	Label,
 	LiIcon,
 	SocialIcons,
 	SocialLink,
@@ -17,10 +18,16 @@ const ContactSection = () => {
 		<ContactContainer>
 			<Title>Contacto</Title>
 			<Form>
-				<Input type="text" />
-				<Input type="email" />
-				<Textarea placeholder="Asunto"></Textarea>
-				<SubmitBtn></SubmitBtn>
+				<Label htmlFor="name">Nombre</Label>
+				<Input type="text" id="name" name="name" required />
+				<Label htmlFor="name">Email</Label>
+
+				<Input type="email" id="email" name="email" required />
+
+				<Label htmlFor="subject">Email</Label>
+
+				<Textarea placeholder="Asunto" name="subject" id="subject"></Textarea>
+				<SubmitBtn type="submit">Enviar</SubmitBtn>
 			</Form>
 
 			<SocialIcons>
