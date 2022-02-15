@@ -6,6 +6,19 @@ import p5 from '../images/project-5.png';
 import p6 from '../images/project-6.png';
 import p7 from '../images/project-7.png';
 
+import c1 from '../images/certificate-1.png';
+import c2 from '../images/certificate-2.png';
+import c3 from '../images/certificate-3.png';
+import c4 from '../images/certificate-4.png';
+import c5 from '../images/certificate-5.png';
+import c6 from '../images/certificate-6.png';
+import c7 from '../images/certificate-7.png';
+import c8 from '../images/certificate-8.png';
+import c9 from '../images/certificate-9.png';
+import c10 from '../images/certificate-10.png';
+import c11 from '../images/certificate-11.png';
+import c12 from '../images/certificate-12.png';
+
 export const skills = [
 	'HTML',
 	'CSS',
@@ -57,24 +70,29 @@ export const projects = [
 export const certificates = [
 	{
 		title: 'JavaScript Algorithms and Data Structures - 2021',
+		img: c1,
 	},
-	{ title: 'Responsive Web Design - 2021' },
+	{ title: 'Responsive Web Design - 2021', img: c2 },
 	{
 		title: 'Building Interactive JavaScript Websites - 2021',
+		img: c3,
 	},
-	{ title: 'Learn Color Design - 2021' },
-	{ title: 'Learn Responsive Design - 2021' },
-	{ title: 'Learn The Command Line - 2021' },
-	{ title: 'Learn JavaScript - 2021' },
+	{ title: 'Learn Color Design - 2021', img: c4 },
+	{ title: 'Learn Responsive Design - 2021', img: c5 },
+	{ title: 'Learn The Command Line - 2021', img: c6 },
+	{ title: 'Learn JavaScript - 2021', img: c7 },
 	{
 		title: 'HTML, CSS, and Javascript for Web Developers - 2020',
+		img: c8,
 	},
 	{
 		title: 'Diseño de Páginas Web con Bootstrap 4 - 2020',
+		img: c9,
 	},
-	{ title: 'Introduction to HTML5 - 2020' },
+	{ title: 'Introduction to HTML5 - 2020', img: c10 },
 	{
 		title: 'Introducción al Desarrollo Web II - 2019',
+		img: c11,
 	},
-	{ title: 'Introducción al Desarrollo Web I - 2019' },
+	{ title: 'Introducción al Desarrollo Web I - 2019', img: c12 },
 ];

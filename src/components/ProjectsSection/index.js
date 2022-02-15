@@ -21,7 +21,7 @@ const ProjectsSection = () => {
 			<Title>Proyectos</Title>
 			<ProjectsWrapper>
 				{projects.map((project, index) => (
-					<ProjectCard>
+					<ProjectCard key={'p' + index}>
 						<ImgContainer>
 							<Img src={project.src} />
 						</ImgContainer>

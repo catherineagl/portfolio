@@ -18,7 +18,6 @@ import {
 	SkillsTitle,
 	SkillItem,
 	MobileSkills,
-	SkillItemIcon,
 	HtmlLogo,
 	CssLogo,
 	JsLogo,
@@ -26,7 +25,6 @@ import {
 	SassLogo,
 	ReactLogo,
 	BsLogo,
-	Typewriter,
 } from './HeroElements';
 const HeroSection = () => {
 	return (
