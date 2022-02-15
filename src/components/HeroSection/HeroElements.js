@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { lightBgColor, mainColor, secondColor } from '../Colors';
+import { mainColor, secondColor } from '../Colors';
 import {
 	IoLogoHtml5,
 	IoLogoCss3,
@@ -9,6 +9,7 @@ import {
 } from 'react-icons/io';
 import { FaReact } from 'react-icons/fa';
 import { BsFillBootstrapFill } from 'react-icons/bs';
+
 export const HeroContainer = styled.div`
 	display: flex;
 	flex-direction: column;
@@ -18,6 +19,8 @@ export const HeroContainer = styled.div`
 	background: #0c0c0c;
 	height: 100vh;
 	width: 100vw;
+	overflow: hidden;
+
 	&:before {
 		content: '';
 		position: absolute;
@@ -62,7 +65,9 @@ export const HeroContent = styled.div`
 	position: absolute;
 	padding: 8px 24px;
 	display: grid;
+	height: 100%;
 	grid-template-columns: 70% 30%;
+	align-content: center;
 	transition: 0.3s ease-in-out;
 	@media screen and (max-width: 1200px) {
 		width: 90vw;
@@ -70,6 +75,8 @@ export const HeroContent = styled.div`
 
 	@media screen and (max-width: 768px) {
 		grid-template-columns: 1fr;
+		align-content: space-evenly;
+		margin-top: 8vh;
 	}
 `;
 
@@ -90,6 +97,10 @@ export const Topline = styled.div`
 	letter-spacing: 1.4px;
 	text-transform: uppercase;
 	margin-bottom: 16px;
+
+	@media screen and (max-width: 480px) {
+		font-size: 12px;
+	}
 `;
 
 export const HeroH1 = styled.h1`
@@ -99,13 +110,23 @@ export const HeroH1 = styled.h1`
 	font-weight: 600;
 	color: ${secondColor};
 	font-weight: bold;
-
+	background: rgb(255, 1, 87);
+	background: linear-gradient(
+		277deg,
+		rgba(255, 1, 87, 0.7290266448376226) 32%,
+		rgba(73, 120, 255, 0.8102591378348214) 72%
+	);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	@media screen and (max-width: 1080px) {
 		font-size: 3rem;
 	}
-
+	@media screen and (max-width: 768px) {
+		font-size: 2.5rem;
+	}
 	@media screen and (max-width: 480px) {
-		font-size: 32px;
+		font-size: 2rem;
 	}
 `;
 
@@ -120,10 +141,19 @@ export const HeroP = styled.div`
 	backdrop-filter: blur(5px);
 	background: rgba(255, 255, 255, 0.1);
 	border-radius: 0.25rem;
+
+	@media screen and (max-width: 768px) {
+		font-size: 16px;
+		padding: 0.5rem;
+	}
+	@media screen and (max-width: 480px) {
+		font-size: 14px;
+	}
 `;
 
 export const Column2 = styled.div`
 	padding: 2rem 0;
+	height: max-content;
 	backdrop-filter: blur(5px);
 	background-color: rgba(255, 255, 255, 0.1);
 	border-radius: 0.25rem;
@@ -131,6 +161,7 @@ export const Column2 = styled.div`
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+
 	@media screen and (max-width: 768px) {
 		width: 80%;
 		margin: auto;
@@ -159,6 +190,9 @@ export const SkillsTitle = styled.h2`
 	padding: 0.5rem;
 	@media screen and (max-width: 1080px) {
 		font-size: 2rem;
+	}
+	@media screen and (max-width: 480px) {
+		font-size: 1.5rem;
 	}
 `;
 
@@ -198,7 +232,7 @@ export const MobileSkills = styled.div`
 		align-items: center;
 	}
 	@media screen and (max-width: 480px) {
-		font-size: 3rem;
+		font-size: 2.5rem;
 	}
 `;
 export const HtmlLogo = styled(IoLogoHtml5)`

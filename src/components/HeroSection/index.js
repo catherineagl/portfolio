@@ -2,7 +2,7 @@ import React from 'react';
 import { skills } from '../Data';
 import bgImg from '../../images/bg.jpg';
 import TypeWriterEffect from 'react-typewriter-effect';
-
+import TextLoop from 'react-text-loop';
 import {
 	HeroContainer,
 	HeroBg,
@@ -26,6 +26,7 @@ import {
 	SassLogo,
 	ReactLogo,
 	BsLogo,
+	Typewriter,
 } from './HeroElements';
 const HeroSection = () => {
 	return (
@@ -40,24 +41,33 @@ const HeroSection = () => {
 					<HeroP>Front-End Developer</HeroP>
 					<TypeWriterEffect
 						textStyle={{
-							fontFamily: 'Red Hat Display',
+							fontFamily: 'Space Mono',
 							color: '#fff',
 							fontWeight: 500,
-							fontSize: '1.5em',
+							fontSize: '2rem',
 						}}
 						startDelay={2000}
 						cursorColor="#3F3D56"
 						multiText={[
-							'Hey there, This is a type writer animation package',
-							'it consist of two types...',
-							'Single text display and multi text display',
-							'Fonts can be customized.',
-							'The type speed can be customized as well',
+							'Diseño Web',
+							'Desarrollo Web',
+							'Diseño y Desarrollo Web',
 						]}
 						multiTextDelay={1000}
 						typeSpeed={30}
 						loop={true}
 					/>
+
+					{/* <div style={{ color: '#fff', fontSize: '2rem' }}>
+						Web
+						<TextLoop
+							springConfig={{ stiffness: 70, damping: 31 }}
+							adjustingSpeed={500}
+						>
+							<span>Design</span>
+							<span>Development</span>
+						</TextLoop> 
+					</div>*/}
 				</Column1>
 				<Column2>
 					<SkillsContainer>

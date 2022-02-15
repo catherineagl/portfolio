@@ -14,13 +14,13 @@ const AboutSection = () => {
 	return (
 		<AboutContainer id="about">
 			<BgContainer></BgContainer>
+			<Title>Acerca de mi</Title>
+
 			<AboutWrapper>
 				<ImgContainer>
-					<Img src={img} />
+					<Img src={img} alt="person" />
 				</ImgContainer>
 				<TextWrapper>
-					<Title>Acerca de mi</Title>
-
 					<InfoP>
 						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error
 						autem nesciunt reiciendis voluptatum modi? Quam officia amet rerum
