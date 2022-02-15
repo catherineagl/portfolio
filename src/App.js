@@ -6,6 +6,8 @@ import HeroSection from './components/HeroSection';
 import Navbar from './components/Navbar';
 import ProjectsSection from './components/ProjectsSection';
 import Sidebar from './components/Sidebar';
+import Footer from './components/Footer';
+
 function App() {
 	const [isOpen, setIsOpen] = useState(false);
 
@@ -21,6 +23,7 @@ function App() {
 			<ProjectsSection />
 			<CertificatesSection />
 			<ContactSection />
+			<Footer />
 		</>
 	);
 }

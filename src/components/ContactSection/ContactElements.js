@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import bg from '../../images/bg.jpg';
 import { secondColor } from '../Colors';
+
 export const ContactContainer = styled.section`
 	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
 		url(${bg});
@@ -11,7 +12,7 @@ export const ContactContainer = styled.section`
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	padding: 5rem 0;
 `;

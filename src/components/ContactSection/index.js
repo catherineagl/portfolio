@@ -15,7 +15,7 @@ import {
 
 const ContactSection = () => {
 	return (
-		<ContactContainer>
+		<ContactContainer id="contact">
 			<Title>Contacto</Title>
 			<Form>
 				<Label htmlFor="name">Nombre</Label>
