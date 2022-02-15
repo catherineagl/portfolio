@@ -67,6 +67,10 @@ export const TextWrapper = styled.div`
 export const Title = styled.h2`
 	font-size: 2.5rem;
 	color: #fff;
+
+	@media screen and (max-width: 480px) {
+		font-size: 2rem;
+	}
 `;
 export const InfoP = styled.div`
 	font-size: 1.2rem;
@@ -75,4 +79,8 @@ export const InfoP = styled.div`
 	font-weight: 300;
 	letter-spacing: 1px;
 	color: #fff;
+
+	@media screen and (max-width: 480px) {
+		font-size: 1rem;
+	}
 `;

@@ -2,42 +2,41 @@ import React from 'react';
 import {
 	Img,
 	ImgContainer,
+	Link,
 	ProjectCard,
 	ProjectInfo,
 	ProjectInfoTech,
 	ProjectInfoTitle,
+	ProjectLinks,
 	ProjectsContainer,
 	ProjectsWrapper,
 	ProjectTitle,
 	Title,
 } from './ProjectsElements';
+import { projects } from '../Data';
 
 const ProjectsSection = () => {
 	return (
 		<ProjectsContainer id="projects">
 			<Title>Proyectos</Title>
 			<ProjectsWrapper>
-				<ProjectCard>
-					<ImgContainer>
-						<Img />
-					</ImgContainer>
-					<ProjectTitle>proyecto</ProjectTitle>
-					<ProjectInfo>
-						<ProjectInfoTitle>Tecnologias</ProjectInfoTitle>
-						<ProjectInfoTech>html, css, javascript</ProjectInfoTech>
-					</ProjectInfo>
-				</ProjectCard>
+				{projects.map((project, index) => (
+					<ProjectCard>
+						<ImgContainer>
+							<Img src={project.src} />
+						</ImgContainer>
+						<ProjectTitle>{project.title}</ProjectTitle>
+						<ProjectInfo>
+							<ProjectInfoTitle>Tecnologias</ProjectInfoTitle>
+							<ProjectInfoTech>{project.tech}</ProjectInfoTech>
+						</ProjectInfo>
 
-				<ProjectCard>
-					<ImgContainer>
-						<Img />
-					</ImgContainer>
-					<ProjectTitle>proyecto</ProjectTitle>
-					<ProjectInfo>
-						<ProjectInfoTitle>Tecnologias</ProjectInfoTitle>
-						<ProjectInfoTech>html, css, javascript</ProjectInfoTech>
-					</ProjectInfo>
-				</ProjectCard>
+						<ProjectLinks>
+							<Link>View Code</Link>
+							<Link>Preview</Link>
+						</ProjectLinks>
+					</ProjectCard>
+				))}
 			</ProjectsWrapper>
 		</ProjectsContainer>
 	);
