@@ -2,7 +2,6 @@ import React from 'react';
 import { skills } from '../Data';
 import bgImg from '../../images/bg.jpg';
 import TypeWriterEffect from 'react-typewriter-effect';
-import TextLoop from 'react-text-loop';
 import {
 	HeroContainer,
 	HeroBg,
