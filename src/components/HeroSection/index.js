@@ -28,15 +28,27 @@ import {
 } from './HeroElements';
 const HeroSection = () => {
 	return (
-		<HeroContainer id="home">
+		<HeroContainer id="home" data-aos="fade-right" data-aos-delay="300">
 			<HeroBg>
 				<ImgBg src={bgImg} />
 			</HeroBg>
 			<HeroContent>
 				<Column1>
-					<Topline>Hello, I am</Topline>
+					<Topline
+						data-aos="fade-right"
+						data-aos-easing="linear"
+						data-aos-delay="300"
+					>
+						Hello, I am
+					</Topline>
 					<HeroH1>Catherine Aguilera</HeroH1>
-					<HeroP>Front-End Developer</HeroP>
+					<HeroP
+						data-aos="fade-right"
+						data-aos-easing="linear"
+						data-aos-delay="400"
+					>
+						Front-End Developer
+					</HeroP>
 					<TypeWriterEffect
 						textStyle={{
 							fontFamily: 'Space Mono',
@@ -55,24 +67,20 @@ const HeroSection = () => {
 						typeSpeed={30}
 						loop={true}
 					/>
-
-					{/* <div style={{ color: '#fff', fontSize: '2rem' }}>
-						Web
-						<TextLoop
-							springConfig={{ stiffness: 70, damping: 31 }}
-							adjustingSpeed={500}
-						>
-							<span>Design</span>
-							<span>Development</span>
-						</TextLoop> 
-					</div>*/}
 				</Column1>
-				<Column2>
+				<Column2 data-aos="fade-left">
 					<SkillsContainer>
 						<SkillsTitle>Skills</SkillsTitle>
 						<SkillsWrapper>
 							{skills.map((skill, index) => (
-								<SkillItem key={index}>{skill}</SkillItem>
+								<SkillItem
+									key={index}
+									data-aos="fade-left"
+									data-aos-easing="linear"
+									data-aos-delay={index * 100}
+								>
+									{skill}
+								</SkillItem>
 							))}
 						</SkillsWrapper>
 

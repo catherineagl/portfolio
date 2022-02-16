@@ -15,11 +15,17 @@ const CertificatesSection = () => {
 			<Title>Certificados</Title>
 			<CertificatesWrapper>
 				{certificates.map((item, index) => (
-					<CertificatesCard key={'c' + index}>
+					<CertificatesCard
+						key={'c' + index}
+						data-aos="flip-right"
+						data-aos-easing="ease-in-out"
+					>
 						<ImgContainer>
 							<Img src={item.img} />
 						</ImgContainer>
-						<CertificateTitle>{item.title}</CertificateTitle>
+						<CertificateTitle data-aos="fade-down">
+							{item.title}
+						</CertificateTitle>
 					</CertificatesCard>
 				))}
 			</CertificatesWrapper>

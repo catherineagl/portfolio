@@ -14,9 +14,11 @@ const AboutSection = () => {
 	return (
 		<AboutContainer id="about">
 			<BgContainer></BgContainer>
-			<Title>Acerca de mi</Title>
+			<Title data-aos="fade-down-right" data-aos-delay="300">
+				Acerca de mi
+			</Title>
 
-			<AboutWrapper>
+			<AboutWrapper data-aos="flip-right" data-aos-delay="400">
 				<ImgContainer>
 					<Img src={img} alt="person" />
 				</ImgContainer>

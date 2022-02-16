@@ -21,7 +21,11 @@ const ProjectsSection = () => {
 			<Title>Proyectos</Title>
 			<ProjectsWrapper>
 				{projects.map((project, index) => (
-					<ProjectCard key={'p' + index}>
+					<ProjectCard
+						key={'p' + index}
+						data-aos={`fade-${project.position}`}
+						data-aos-easing="ease-in-sine"
+					>
 						<ImgContainer>
 							<Img src={project.src} />
 						</ImgContainer>

@@ -71,7 +71,7 @@ export const projects = [
 	{
 		title: 'Shopping Cart',
 		src: p6,
-		position: 'right',
+		position: 'left',
 		tech: 'React.js / React Router',
 		code: 'https://github.com/catherineagl/shopping-cart',
 		preview: 'https://catherineagl.github.io/shopping-cart/',
