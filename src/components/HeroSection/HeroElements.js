@@ -112,9 +112,9 @@ export const HeroH1 = styled.h1`
 	font-size: 4rem;
 	line-height: 1.1;
 	font-weight: 600;
-	color: ${secondColor};
+	color: #fff;
 	font-weight: bold;
-	background: rgb(255, 1, 87);
+	/* 	background: rgb(255, 1, 87);
 	background: linear-gradient(
 		277deg,
 		rgba(255, 1, 87, 0.7290266448376226) 32%,
@@ -122,7 +122,7 @@ export const HeroH1 = styled.h1`
 	);
 	background-clip: text;
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	-webkit-text-fill-color: transparent; */
 	@media screen and (max-width: 1080px) {
 		font-size: 3rem;
 	}

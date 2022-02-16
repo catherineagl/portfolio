@@ -69,6 +69,7 @@ export const Link = styled.a`
 	font-size: 1.2rem;
 	color: white;
 	transform: translateY(-150%);
+	text-decoration: none;
 	transition: none.3s ease-in-out;
 	&:hover {
 		background-color: white;

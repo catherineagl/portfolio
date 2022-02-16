@@ -4,7 +4,6 @@ import p3 from '../images/project-3.png';
 import p4 from '../images/project-4.png';
 import p5 from '../images/project-5.png';
 import p6 from '../images/project-6.png';
-import p7 from '../images/project-7.png';
 
 import c1 from '../images/certificate-1.png';
 import c2 from '../images/certificate-2.png';
@@ -30,69 +29,81 @@ export const skills = [
 
 export const projects = [
 	{
-		title: 'Pokedex',
+		title: 'Tesla Clone',
 		src: p1,
 		position: 'right',
-		tech: 'HTML, CSS, JavaScript, Webpack',
+		tech: 'React.js / Redux',
+		code: 'https://github.com/catherineagl/tesla-clone',
+		preview: 'https://catherineagl.github.io/tesla-clone/',
 	},
 	{
-		title: 'App Clima',
+		title: 'Quimera Website',
 		src: p2,
 		position: 'left',
-		tech: 'html, css, js, webpack',
+		tech: 'React.js',
+		code: '',
+		preview: '',
 	},
 	{
-		title: 'ToDo App',
+		title: 'Clima App',
 		src: p3,
 		position: 'right',
 		tech: 'html, css, js, webpack',
+		code: 'https://github.com/catherineagl/weather-app/',
+		preview: 'https://catherineagl.github.io/weather-app/',
 	},
 	{
-		title: 'Book App',
+		title: 'Pokedex',
 		src: p4,
 		position: 'left',
 		tech: 'html, css, js, webpack',
+		code: 'https://github.com/catherineagl/pokedex',
+		preview: 'https://catherineagl.github.io/pokedex/',
 	},
 	{
-		title: 'Calculadora',
+		title: 'Memory Card',
 		src: p5,
 		position: 'right',
-		tech: 'html, css, js, webpack',
+		tech: 'React.js',
+		code: 'https://github.com/catherineagl/memory-card',
+		preview: 'https://catherineagl.github.io/memory-card/',
 	},
 	{
-		title: 'Restaurant Page',
+		title: 'Shopping Cart',
 		src: p6,
 		position: 'right',
-		tech: 'html, css, js, webpack',
+		tech: 'React.js / React Router',
+		code: 'https://github.com/catherineagl/shopping-cart',
+		preview: 'https://catherineagl.github.io/shopping-cart/',
 	},
 ];
 
 export const certificates = [
 	{
 		title: 'JavaScript Algorithms and Data Structures - 2021',
-		img: c1,
+		img: c12,
 	},
-	{ title: 'Responsive Web Design - 2021', img: c2 },
+	{ title: 'Responsive Web Design - 2021', img: c11 },
 	{
 		title: 'Building Interactive JavaScript Websites - 2021',
-		img: c3,
+		img: c10,
 	},
-	{ title: 'Learn Color Design - 2021', img: c4 },
-	{ title: 'Learn Responsive Design - 2021', img: c5 },
-	{ title: 'Learn The Command Line - 2021', img: c6 },
-	{ title: 'Learn JavaScript - 2021', img: c7 },
+	{ title: 'Learn Color Design - 2021', img: c9 },
+	{ title: 'Learn Responsive Design - 2021', img: c8 },
+	{ title: 'Learn The Command Line - 2021', img: c7 },
+	{ title: 'Learn JavaScript - 2021', img: c6 },
 	{
 		title: 'HTML, CSS, and Javascript for Web Developers - 2020',
-		img: c8,
+		img: c5,
 	},
 	{
 		title: 'Diseño de Páginas Web con Bootstrap 4 - 2020',
-		img: c9,
+		img: c4,
 	},
-	{ title: 'Introduction to HTML5 - 2020', img: c10 },
+	{ title: 'Introduction to HTML5 - 2020', img: c3 },
 	{
 		title: 'Introducción al Desarrollo Web II - 2019',
-		img: c11,
+		img: c2,
 	},
-	{ title: 'Introducción al Desarrollo Web I - 2019', img: c12 },
+	{ title: 'Introducción al Desarrollo Web I - 2019', img: c1 },
 ];

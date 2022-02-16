@@ -32,8 +32,8 @@ const ProjectsSection = () => {
 						</ProjectInfo>
 
 						<ProjectLinks>
-							<Link>View Code</Link>
-							<Link>Preview</Link>
+							<Link href={project.code}>Codigo</Link>
+							<Link href={project.preview}>Preview</Link>
 						</ProjectLinks>
 					</ProjectCard>
 				))}

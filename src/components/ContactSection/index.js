@@ -14,10 +14,15 @@ import {
 } from './ContactElements';
 
 const ContactSection = () => {
+	const handleSubmit = (e) => {};
 	return (
 		<ContactContainer id="contact">
 			<Title>Contacto</Title>
-			<Form>
+			<Form
+				action="https://formsubmit.co/47c21fc118c685efbdb34220bdf0968b "
+				method="POST"
+				onSubmit={handleSubmit}
+			>
 				<Label htmlFor="name">Nombre</Label>
 				<Input type="text" id="name" name="name" required />
 				<Label htmlFor="name">Email</Label>
@@ -31,10 +36,10 @@ const ContactSection = () => {
 			</Form>
 
 			<SocialIcons>
-				<SocialLink>
+				<SocialLink href="https://github.com/catherineagl">
 					<GhIcon />
 				</SocialLink>
-				<SocialLink>
+				<SocialLink href="https://www.linkedin.com/in/catherine-aguilera">
 					<LiIcon />
 				</SocialLink>
 			</SocialIcons>
