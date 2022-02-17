@@ -10,8 +10,6 @@ import {
 	NavMenu,
 	NavItem,
 	NavLinks,
-	NavBtn,
-	NavBtnLink,
 } from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
@@ -93,8 +91,8 @@ const Navbar = ({ toggle }) => {
 							</NavLinks>
 						</NavItem>
 
-						<NavBtn>
-							<NavBtnLink
+						<NavItem>
+							<NavLinks
 								to="contact"
 								smooth={true}
 								duration={500}
@@ -103,8 +101,8 @@ const Navbar = ({ toggle }) => {
 								offset={-80}
 							>
 								Contacto
-							</NavBtnLink>
-						</NavBtn>
+							</NavLinks>
+						</NavItem>
 					</NavMenu>
 				</NavbarContainer>
 			</Nav>

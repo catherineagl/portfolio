@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import bg from '../../images/bg.jpg';
-import { mainColor, secondColor } from '../Colors';
+import { mainColor, mainColorBg, secondColor } from '../Colors';
 
 export const ProjectsContainer = styled.section`
 	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
@@ -154,10 +154,19 @@ export const ProjectTitle = styled.h3`
 	left: 0;
 	transform: translateX(-50%);
 	font-size: 3.5rem;
-	color: ${secondColor};
-	font-weight: 400;
+	color: ${mainColorBg};
+	//color: #ffdac7;
+	letter-spacing: 4px;
 	z-index: 5;
+	font-family: 'Bebas Neue', cursive;
+	/* 	text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5,
+		-2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5,
+		-2px 0px 0 #4074b5, 0px -2px 0 #4074b5, 0px 0px 6px rgba(206, 89, 55, 0);
+ */
+	//text-shadow: 3px 2px 3px rgba(255, 255, 255, 0.2);
 
+	text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1),
+		1px 1px 1px rgba(0, 0, 0, 0.5);
 	@media screen and (max-width: 768px) {
 		top: -2.5rem;
 		transform: translateX(0%);

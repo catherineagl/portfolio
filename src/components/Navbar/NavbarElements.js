@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { Link as LinkScroll } from 'react-scroll';
-import { mainColor, bgColor, lightBgColor, secondColor } from '../Colors';
+import { mainColor, bgColor } from '../Colors';
 
 export const Nav = styled.nav`
 	background: ${({ scrollNav }) => (scrollNav ? bgColor : 'transparent')};
@@ -33,6 +33,7 @@ export const NavLogo = styled(LinkScroll)`
 	align-items: center;
 	font-weight: thin;
 	text-decoration: none;
+	cursor: pointer;
 `;
 export const MobileIcon = styled.div`
 	display: none;
