@@ -37,12 +37,12 @@ export const projects = [
 		preview: 'https://catherineagl.github.io/tesla-clone/',
 	},
 	{
-		title: 'Quimera Website',
+		title: 'Disney+ Clone',
 		src: p2,
 		position: 'left',
-		tech: 'React.js',
-		code: '',
-		preview: '',
+		tech: 'React.js / Redux / Firebase',
+		code: 'https://github.com/catherineagl/disney-plus-clone',
+		preview: 'https://disney-plus-2a96b.web.app/',
 	},
 	{
 		title: 'Clima App',
