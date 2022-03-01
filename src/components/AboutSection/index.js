@@ -24,10 +24,11 @@ const AboutSection = () => {
 				</ImgContainer>
 				<TextWrapper>
 					<InfoP>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error
-						autem nesciunt reiciendis voluptatum modi? Quam officia amet rerum
-						delectus nihil? Expedita pariatur quidem quos tempora? Quod sit
-						eveniet ab perferendis?
+						Mi nombre es Catherine y soy una desarrolladora Frontend, me encanta
+						trabajar con tecnologías JavaScript. Ahora mismo estoy enfocada en
+						aprender todo lo relacionado con el Desarrollo Web. También me
+						apasiona explorar nuevas tecnologías que puedo aprovechar para
+						resolver problemas de la vida real.
 					</InfoP>
 				</TextWrapper>
 			</AboutWrapper>
