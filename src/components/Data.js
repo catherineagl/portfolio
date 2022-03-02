@@ -1,4 +1,4 @@
-//projects images
+/* //projects images
 import p1 from '../images/project-1.png';
 import p2 from '../images/project-2.png';
 import p3 from '../images/project-3.png';
@@ -17,7 +17,7 @@ import c8 from '../images/certificate-8.png';
 import c9 from '../images/certificate-9.png';
 import c10 from '../images/certificate-10.png';
 import c11 from '../images/certificate-11.png';
-import c12 from '../images/certificate-12.png';
+import c12 from '../images/certificate-12.png'; */
 //skills images
 import html from '../images/html-icon.svg';
 import css from '../images/css-icon.svg';
@@ -52,7 +52,7 @@ export const skills = [
 export const projects = [
 	{
 		title: 'Tesla Clone',
-		src: p1,
+		src: 'https://i.ibb.co/L5BbhVT/project-1.png',
 		position: 'right',
 		tech: 'React.js / Redux',
 		code: 'https://github.com/catherineagl/tesla-clone',
@@ -60,7 +60,7 @@ export const projects = [
 	},
 	{
 		title: 'Disney+ Clone',
-		src: p2,
+		src: 'https://i.ibb.co/K2z3fBx/project-2.png',
 		position: 'left',
 		tech: 'React.js / Redux / Firebase',
 		code: 'https://github.com/catherineagl/disney-plus-clone',
@@ -68,7 +68,7 @@ export const projects = [
 	},
 	{
 		title: 'Clima App',
-		src: p3,
+		src: 'https://i.ibb.co/xjBxS6K/project-3.png',
 		position: 'right',
 		tech: 'HTML, CSS, JavaScript, Webpack',
 		code: 'https://github.com/catherineagl/weather-app/',
@@ -76,7 +76,7 @@ export const projects = [
 	},
 	{
 		title: 'Pokedex',
-		src: p4,
+		src: 'https://i.ibb.co/PzwJX5f/project-4.png',
 		position: 'left',
 		tech: 'HTML, CSS, JavaScript, Webpack',
 		code: 'https://github.com/catherineagl/pokedex',
@@ -84,7 +84,7 @@ export const projects = [
 	},
 	{
 		title: 'Memory Card',
-		src: p5,
+		src: 'https://i.ibb.co/d7SvjC8/project-5.png',
 		position: 'right',
 		tech: 'React.js',
 		code: 'https://github.com/catherineagl/memory-card',
@@ -92,7 +92,7 @@ export const projects = [
 	},
 	{
 		title: 'Shopping Cart',
-		src: p6,
+		src: 'https://i.ibb.co/F0xN28n/project-6.png',
 		position: 'left',
 		tech: 'React.js / React Router',
 		code: 'https://github.com/catherineagl/shopping-cart',
@@ -103,29 +103,50 @@ export const projects = [
 export const certificates = [
 	{
 		title: 'JavaScript Algorithms and Data Structures - 2021',
-		img: c12,
+		img: 'https://i.ibb.co/fGvJ8pL/certificate-12.png',
 	},
-	{ title: 'Responsive Web Design - 2021', img: c11 },
+	{
+		title: 'Responsive Web Design - 2021',
+		img: 'https://i.ibb.co/KjSg6WR/certificate-11.png',
+	},
 	{
 		title: 'Building Interactive JavaScript Websites - 2021',
-		img: c10,
+		img: 'https://i.ibb.co/txjb32F/certificate-10.png',
 	},
-	{ title: 'Learn Color Design - 2021', img: c9 },
-	{ title: 'Learn Responsive Design - 2021', img: c8 },
-	{ title: 'Learn The Command Line - 2021', img: c7 },
-	{ title: 'Learn JavaScript - 2021', img: c6 },
+	{
+		title: 'Learn Color Design - 2021',
+		img: 'https://i.ibb.co/spfTd9X/certificate-9.png',
+	},
+	{
+		title: 'Learn Responsive Design - 2021',
+		img: 'https://i.ibb.co/gR4ccW9/certificate-8.png',
+	},
+	{
+		title: 'Learn The Command Line - 2021',
+		img: 'https://i.ibb.co/Sw5LTkv/certificate-7.png',
+	},
+	{
+		title: 'Learn JavaScript - 2021',
+		img: 'https://i.ibb.co/Wx9ptj2/certificate-6.png',
+	},
 	{
 		title: 'HTML, CSS, and Javascript for Web Developers - 2020',
-		img: c5,
+		img: 'https://i.ibb.co/zPwVf6L/certificate-5.png',
 	},
 	{
 		title: 'Diseño de Páginas Web con Bootstrap 4 - 2020',
-		img: c4,
+		img: 'https://i.ibb.co/h9x4Pbh/certificate-4.png',
 	},
-	{ title: 'Introduction to HTML5 - 2020', img: c3 },
+	{
+		title: 'Introduction to HTML5 - 2020',
+		img: 'https://i.ibb.co/LPbPk3x/certificate-3.png',
+	},
 	{
 		title: 'Introducción al Desarrollo Web II - 2019',
-		img: c2,
+		img: 'https://i.ibb.co/XsqR9FC/certificate-2.png',
 	},
-	{ title: 'Introducción al Desarrollo Web I - 2019', img: c1 },
+	{
+		title: 'Introducción al Desarrollo Web I - 2019',
+		img: 'https://i.ibb.co/z5X1YVZ/certificate-1.png',
+	},
 ];

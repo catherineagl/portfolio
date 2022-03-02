@@ -1,9 +1,8 @@
 import styled from 'styled-components';
-import bg from '../../images/bg-2.png';
 import { secondColor } from '../Colors';
 
 export const CertificatesContainer = styled.section`
-	background: url(${bg}) #333;
+	background: url('https://i.ibb.co/9TBT90b/bg-2.png') #333;
 	padding: 5rem 0;
 `;
 

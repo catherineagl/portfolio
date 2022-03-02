@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { mainColor, secondColor } from '../Colors';
-import bg from '../../images/bg.jpg';
 
 export const HeroContainer = styled.div`
 	display: flex;
@@ -9,7 +8,7 @@ export const HeroContainer = styled.div`
 	justify-content: center;
 	position: relative;
 	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
-		url(${bg});
+		url('https://i.ibb.co/JnxZYP8/bg.jpg');
 	background-repeat: no-repeat;
 	background-clip: border-box;
 	background-size: cover;

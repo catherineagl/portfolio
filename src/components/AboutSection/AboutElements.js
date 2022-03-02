@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import bg from '../../images/bg-2.png';
 import { mainColor } from '../Colors';
 
 export const AboutContainer = styled.div`
@@ -24,7 +23,7 @@ export const BgContainer = styled.div`
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: url(${bg}) #666;
+	background: url('https://i.ibb.co/9TBT90b/bg-2.png') #333;
 	z-index: -1;
 	overflow: hidden;
 `;
