@@ -1,14 +1,5 @@
 import styled from 'styled-components';
 import { mainColor, secondColor } from '../Colors';
-import {
-	IoLogoHtml5,
-	IoLogoCss3,
-	IoLogoJavascript,
-	IoLogoNpm,
-	IoLogoSass,
-} from 'react-icons/io';
-import { FaReact } from 'react-icons/fa';
-import { BsFillBootstrapFill } from 'react-icons/bs';
 import bg from '../../images/bg.jpg';
 
 export const HeroContainer = styled.div`
