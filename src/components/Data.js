@@ -36,10 +36,7 @@ import webpack from '../images/webpack-icon.svg';
 export const skills = [
 	{ name: 'HTML', icon: html },
 	{ name: 'CSS', icon: css },
-	{
-		name: 'JavaScript',
-		icon: js,
-	},
+	{ name: 'JavaScript', icon: js },
 	{ name: 'TypeScript', icon: ts },
 	{ name: 'React.js', icon: react },
 	{ name: 'Redux', icon: redux },
