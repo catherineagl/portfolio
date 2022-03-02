@@ -15,7 +15,7 @@ const AboutSection = () => {
 		<AboutContainer id="about">
 			<BgContainer></BgContainer>
 			<Title data-aos="fade-down-right" data-aos-delay="300">
-				Acerca de mi
+				Acerca de mí
 			</Title>
 
 			<AboutWrapper data-aos="flip-right" data-aos-delay="400">
