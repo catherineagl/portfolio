@@ -1,18 +1,21 @@
 import styled from 'styled-components';
 import bg from '../../images/bg-2.png';
-import { bgColor, mainColor } from '../Colors';
+import { mainColor } from '../Colors';
 
 export const AboutContainer = styled.div`
 	max-width: 100vw;
-	height: calc(100vh - 80px);
+	height: 100vh;
 	max-height: auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding: 5rem 0;
-	background-color: ${bgColor};
 	position: relative;
 	z-index: 1;
+
+	@media screen and (max-width: 480px) {
+		height: 80vh;
+	}
 `;
 
 export const BgContainer = styled.div`
@@ -21,7 +24,6 @@ export const BgContainer = styled.div`
 	height: 100%;
 	top: 0;
 	left: 0;
-	clip-path: polygon(0 0, 100% 0%, 50% 50%, 0 100%);
 	background: url(${bg}) #666;
 	z-index: -1;
 	overflow: hidden;
@@ -63,6 +65,9 @@ export const TextWrapper = styled.div`
 		rgba(204, 204, 204, 0.1) 72%
 	);
 	border-right: 3px solid ${mainColor};
+
+	@media screen and (max-width: 480px) {
+	}
 `;
 export const Title = styled.h2`
 	font-size: 2.5rem;
@@ -82,5 +87,6 @@ export const InfoP = styled.div`
 
 	@media screen and (max-width: 480px) {
 		font-size: 1rem;
+		line-height: 1.2rem;
 	}
 `;

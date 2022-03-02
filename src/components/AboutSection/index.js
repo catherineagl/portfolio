@@ -24,11 +24,11 @@ const AboutSection = () => {
 				</ImgContainer>
 				<TextWrapper>
 					<InfoP>
-						Mi nombre es Catherine y soy una desarrolladora Frontend, me encanta
-						trabajar con tecnologías JavaScript. Ahora mismo estoy enfocada en
-						aprender todo lo relacionado con el Desarrollo Web. También me
-						apasiona explorar nuevas tecnologías que puedo aprovechar para
-						resolver problemas de la vida real.
+						Mi nombre es Catherine, soy una desarrolladora Web Frontend y me
+						encanta trabajar con tecnologías JavaScript. Ahora mismo estoy
+						enfocada en aprender todo lo relacionado con el Desarrollo Web.
+						También me apasiona explorar nuevas tecnologías que puedo aprovechar
+						para resolver problemas de la vida real.
 					</InfoP>
 				</TextWrapper>
 			</AboutWrapper>

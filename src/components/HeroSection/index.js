@@ -1,11 +1,8 @@
 import React from 'react';
 import { skills } from '../Data';
-import bgImg from '../../images/bg.jpg';
 import TypeWriterEffect from 'react-typewriter-effect';
 import {
 	HeroContainer,
-	HeroBg,
-	ImgBg,
 	HeroContent,
 	Column1,
 	Topline,
@@ -17,20 +14,12 @@ import {
 	SkillsTitle,
 	SkillItem,
 	MobileSkills,
-	HtmlLogo,
-	CssLogo,
-	JsLogo,
-	NpmLogo,
-	SassLogo,
-	ReactLogo,
-	BsLogo,
+	SkillBox,
 } from './HeroElements';
+
 const HeroSection = () => {
 	return (
 		<HeroContainer id="home" data-aos="fade-right" data-aos-delay="300">
-			<HeroBg>
-				<ImgBg src={bgImg} />
-			</HeroBg>
 			<HeroContent>
 				<Column1>
 					<Topline
@@ -38,7 +27,7 @@ const HeroSection = () => {
 						data-aos-easing="linear"
 						data-aos-delay="300"
 					>
-						Hello, I am
+						Hola, Yo soy
 					</Topline>
 					<HeroH1>Catherine Aguilera</HeroH1>
 					<HeroP
@@ -46,7 +35,7 @@ const HeroSection = () => {
 						data-aos-easing="linear"
 						data-aos-delay="400"
 					>
-						Front-End Developer
+						Desarrolladora Frontend
 					</HeroP>
 					<TypeWriterEffect
 						textStyle={{
@@ -69,7 +58,7 @@ const HeroSection = () => {
 				</Column1>
 				<Column2 data-aos="fade-left">
 					<SkillsContainer>
-						<SkillsTitle>Skills</SkillsTitle>
+						<SkillsTitle>Tecnologías</SkillsTitle>
 						<SkillsWrapper>
 							{skills.map((skill, index) => (
 								<SkillItem
@@ -78,19 +67,19 @@ const HeroSection = () => {
 									data-aos-easing="linear"
 									data-aos-delay={index * 100}
 								>
-									{skill}
+									<img src={skill.icon} alt="" />
+									<span>{skill.name}</span>
 								</SkillItem>
 							))}
 						</SkillsWrapper>
 
 						<MobileSkills>
-							<HtmlLogo />
-							<CssLogo />
-							<JsLogo />
-							<NpmLogo />
-							<SassLogo />
-							<BsLogo />
-							<ReactLogo />
+							{skills.map((skill, index) => (
+								<SkillBox key={index}>
+									<img src={skill.icon} alt="" />
+									<span>{skill.name}</span>
+								</SkillBox>
+							))}
 						</MobileSkills>
 					</SkillsContainer>
 				</Column2>

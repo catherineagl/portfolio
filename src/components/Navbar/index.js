@@ -33,7 +33,7 @@ const Navbar = ({ toggle }) => {
 			<Nav scrollNav={scrollNav}>
 				<NavbarContainer>
 					<NavLogo to="home" onClick={toggleHome}>
-						PORTFOLIO
+						PORTAFOLIO
 					</NavLogo>
 
 					<MobileIcon onClick={toggle}>
@@ -63,7 +63,7 @@ const Navbar = ({ toggle }) => {
 								exactt="true"
 								offset={-80}
 							>
-								Acerca de mi
+								Acerca de mí
 							</NavLinks>
 						</NavItem>
 						<NavItem>

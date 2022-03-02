@@ -1,10 +1,11 @@
+//projects images
 import p1 from '../images/project-1.png';
 import p2 from '../images/project-2.png';
 import p3 from '../images/project-3.png';
 import p4 from '../images/project-4.png';
 import p5 from '../images/project-5.png';
 import p6 from '../images/project-6.png';
-
+//certificates images
 import c1 from '../images/certificate-1.png';
 import c2 from '../images/certificate-2.png';
 import c3 from '../images/certificate-3.png';
@@ -17,14 +18,36 @@ import c9 from '../images/certificate-9.png';
 import c10 from '../images/certificate-10.png';
 import c11 from '../images/certificate-11.png';
 import c12 from '../images/certificate-12.png';
+//skills images
+import html from '../images/html-icon.svg';
+import css from '../images/css-icon.svg';
+import js from '../images/js-icon.svg';
+import ts from '../images/ts-icon.svg';
+import react from '../images/react-icon.svg';
+import redux from '../images/redux-icon.svg';
+import sass from '../images/sass-icon.svg';
+import bs from '../images/bootstrap-icon.svg';
+import styledCom from '../images/styled-components-icon.svg';
+import npm from '../images/npm-icon.svg';
+import git from '../images/git-icon.svg';
+import firebase from '../images/firebase-icon.svg';
 
 export const skills = [
-	'HTML',
-	'CSS',
-	'JavaScript',
-	'Sass',
-	'Bootstrap',
-	'React.js',
+	{ name: 'HTML', icon: html },
+	{ name: 'CSS', icon: css },
+	{
+		name: 'JavaScript',
+		icon: js,
+	},
+	{ name: 'TypeScript', icon: ts },
+	{ name: 'React.js', icon: react },
+	{ name: 'Redux', icon: redux },
+	{ name: 'npm', icon: npm },
+	{ name: 'Git', icon: git },
+	{ name: 'Firebase', icon: firebase },
+	{ name: 'Sass', icon: sass },
+	{ name: 'Bootstrap', icon: bs },
+	{ name: 'Styled Components', icon: styledCom },
 ];
 
 export const projects = [

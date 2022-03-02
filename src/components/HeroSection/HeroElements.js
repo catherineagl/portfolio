@@ -9,6 +9,7 @@ import {
 } from 'react-icons/io';
 import { FaReact } from 'react-icons/fa';
 import { BsFillBootstrapFill } from 'react-icons/bs';
+import bg from '../../images/bg.jpg';
 
 export const HeroContainer = styled.div`
 	display: flex;
@@ -16,63 +17,35 @@ export const HeroContainer = styled.div`
 	align-items: center;
 	justify-content: center;
 	position: relative;
-	background: #0c0c0c;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+		url(${bg});
+	background-repeat: no-repeat;
+	background-clip: border-box;
+	background-size: cover;
+	background-attachment: fixed;
 	height: 100vh;
 	width: 100vw;
 	overflow: hidden;
-
-	&:before {
-		content: '';
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		background: linear-gradient(
-				180deg,
-				rgba(0, 0, 0, 0.2) 0%,
-				rgba(0, 0, 0, 0.6) 100%
-			),
-			linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
-		z-index: 2;
-	}
-`;
-
-export const HeroBg = styled.div`
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-`;
-
-export const ImgBg = styled.img`
-	width: 100%;
-	height: 100%;
-	-o-object-fit: cover;
-	object-fit: cover;
-	backdrop-filter: blur(1px);
 `;
 
 export const HeroContent = styled.div`
 	z-index: 3;
-	width: 70%;
+	width: 80%;
 	max-width: 1500px;
 	margin: auto;
 	position: absolute;
 	padding: 8px 24px;
 	display: grid;
 	height: 100%;
-	grid-template-columns: 70% 30%;
+	grid-template-columns: 60% 40%;
 	align-content: center;
 	transition: 0.3s ease-in-out;
 	@media screen and (max-width: 1200px) {
 		width: 90vw;
 	}
-
+	@media screen and (max-width: 1080px) {
+		width: 100%;
+	}
 	@media screen and (max-width: 768px) {
 		grid-template-columns: 1fr;
 		align-content: space-evenly;
@@ -114,15 +87,6 @@ export const HeroH1 = styled.h1`
 	font-weight: 600;
 	color: #fff;
 	font-weight: bold;
-	/* 	background: rgb(255, 1, 87);
-	background: linear-gradient(
-		277deg,
-		rgba(255, 1, 87, 0.7290266448376226) 32%,
-		rgba(73, 120, 255, 0.8102591378348214) 72%
-	);
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent; */
 	@media screen and (max-width: 1080px) {
 		font-size: 3rem;
 	}
@@ -157,7 +121,8 @@ export const HeroP = styled.div`
 
 export const Column2 = styled.div`
 	padding: 2rem 0;
-	height: max-content;
+	height: min-content;
+	margin: auto;
 	backdrop-filter: blur(5px);
 	background-color: rgba(255, 255, 255, 0.1);
 	border-radius: 0.25rem;
@@ -184,11 +149,14 @@ export const SkillsContainer = styled.div`
 	@media screen and (max-width: 768px) {
 		width: 80%;
 	}
+
+	@media screen and (max-width: 480px) {
+		width: 90%;
+	}
 `;
 
 export const SkillsTitle = styled.h2`
 	color: white;
-	margin: 0.5rem 0;
 	font-size: 2.5rem;
 	text-shadow: 1px 1px 2px ${secondColor};
 	border-bottom: 3px solid ${secondColor};
@@ -207,14 +175,17 @@ export const SkillsTitle = styled.h2`
 export const SkillsWrapper = styled.ul`
 	list-style: none;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 1rem;
 	@media screen and (max-width: 768px) {
 		display: none;
 	}
 `;
 
 export const SkillItem = styled.li`
+	display: flex;
+	align-items: center;
+	min-width: 50%;
 	padding: 0.2rem 0;
 	padding-left: 2rem;
 	letter-spacing: 1px;
@@ -222,46 +193,47 @@ export const SkillItem = styled.li`
 	font-weight: 400;
 	text-align: left;
 	color: #fff;
-
+	img {
+		width: 1.5rem;
+		margin-right: 0.25rem;
+	}
 	@media screen and (max-width: 1080px) {
-		font-size: 1.2rem;
+		font-size: 1rem;
+		img {
+			width: 1rem;
+		}
 	}
 `;
 
 export const MobileSkills = styled.div`
 	display: none;
 	transition: 0.3s ease-in-out;
+
+	img {
+		margin-bottom: 0.25rem;
+		width: 2.5rem;
+	}
 	@media screen and (max-width: 768px) {
-		font-size: 4rem;
-		color: #fff;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
 	}
 	@media screen and (max-width: 480px) {
-		font-size: 2.5rem;
+		img {
+			width: 1.2rem;
+		}
 	}
 `;
-export const HtmlLogo = styled(IoLogoHtml5)`
-	padding: 0.5rem;
-`;
-export const CssLogo = styled(IoLogoCss3)`
-	padding: 0.5rem;
-`;
-export const JsLogo = styled(IoLogoJavascript)`
-	padding: 0.5rem;
-`;
-export const NpmLogo = styled(IoLogoNpm)`
-	padding: 0.5rem;
-`;
 
-export const SassLogo = styled(IoLogoSass)`
+export const SkillBox = styled.div`
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
 	padding: 0.5rem;
-`;
-export const ReactLogo = styled(FaReact)`
-	padding: 0.5rem;
-`;
-export const BsLogo = styled(BsFillBootstrapFill)`
-	padding: 0.5rem;
+	span {
+		font-size: 0.7rem;
+	}
 `;

@@ -31,12 +31,12 @@ const ProjectsSection = () => {
 						</ImgContainer>
 						<ProjectTitle>{project.title}</ProjectTitle>
 						<ProjectInfo>
-							<ProjectInfoTitle>Tecnologias</ProjectInfoTitle>
+							<ProjectInfoTitle>Tecnologías</ProjectInfoTitle>
 							<ProjectInfoTech>{project.tech}</ProjectInfoTech>
 						</ProjectInfo>
 
 						<ProjectLinks>
-							<Link href={project.code}>Codigo</Link>
+							<Link href={project.code}>Código</Link>
 							<Link href={project.preview}>Preview</Link>
 						</ProjectLinks>
 					</ProjectCard>

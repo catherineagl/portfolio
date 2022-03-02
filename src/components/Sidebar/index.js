@@ -38,7 +38,7 @@ const Sidebar = ({ isOpen, toggle }) => {
 						offset={-80}
 						onClick={toggle}
 					>
-						Acerca de mi
+						Acerca de mí
 					</SidebarLink>
 					<SidebarLink
 						to="projects"
@@ -73,7 +73,7 @@ const Sidebar = ({ isOpen, toggle }) => {
 						offset={-80}
 						onClick={toggle}
 					>
-						Contactame
+						Contáctame
 					</SidebarSpecialLink>
 				</SidebarBtnWrap>
 			</SidebarWrapper>
