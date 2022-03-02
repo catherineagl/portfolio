@@ -31,6 +31,7 @@ import styledCom from '../images/styled-components-icon.svg';
 import npm from '../images/npm-icon.svg';
 import git from '../images/git-icon.svg';
 import firebase from '../images/firebase-icon.svg';
+import webpack from '../images/webpack-icon.svg';
 
 export const skills = [
 	{ name: 'HTML', icon: html },
@@ -45,6 +46,7 @@ export const skills = [
 	{ name: 'npm', icon: npm },
 	{ name: 'Git', icon: git },
 	{ name: 'Firebase', icon: firebase },
+	{ name: 'Webpack', icon: webpack },
 	{ name: 'Sass', icon: sass },
 	{ name: 'Bootstrap', icon: bs },
 	{ name: 'Styled Components', icon: styledCom },
