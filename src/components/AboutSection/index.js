@@ -9,7 +9,7 @@ import {
 	TextWrapper,
 	Title,
 } from './AboutElements';
-import img from '../../images/img.jpg';
+
 const AboutSection = () => {
 	return (
 		<AboutContainer id="about">
@@ -20,7 +20,7 @@ const AboutSection = () => {
 
 			<AboutWrapper data-aos="flip-right" data-aos-delay="400">
 				<ImgContainer>
-					<Img src={img} alt="person" />
+					<Img src="https://i.ibb.co/rb4w1p2/img.jpg" alt="person" />
 				</ImgContainer>
 				<TextWrapper>
 					<InfoP>
