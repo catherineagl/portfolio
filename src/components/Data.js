@@ -49,14 +49,16 @@ export const skills = [
 	{ name: 'Styled Components', icon: styledCom },
 ];
 
+//amazon clone
+//https://clone-ffc70.web.app/
 export const projects = [
 	{
-		title: 'Tesla Clone',
-		src: 'https://i.ibb.co/L5BbhVT/project-1.png',
+		title: 'Amazon Clone',
+		src: 'https://i.ibb.co/ts47cYf/project-7.png',
 		position: 'right',
-		tech: 'React.js / Redux',
-		code: 'https://github.com/catherineagl/tesla-clone',
-		preview: 'https://catherineagl.github.io/tesla-clone/',
+		tech: 'React.js / Firebase / Stripe',
+		code: 'https://github.com/catherineagl/amazon-clone',
+		preview: 'https://clone-ffc70.web.app/',
 	},
 	{
 		title: 'Disney+ Clone',
@@ -67,12 +69,12 @@ export const projects = [
 		preview: 'https://disney-plus-2a96b.web.app/',
 	},
 	{
-		title: 'Clima App',
-		src: 'https://i.ibb.co/xjBxS6K/project-3.png',
+		title: 'Tesla Clone',
+		src: 'https://i.ibb.co/L5BbhVT/project-1.png',
 		position: 'right',
-		tech: 'HTML, CSS, JavaScript, Webpack',
-		code: 'https://github.com/catherineagl/weather-app/',
-		preview: 'https://catherineagl.github.io/weather-app/',
+		tech: 'React.js / Redux',
+		code: 'https://github.com/catherineagl/tesla-clone',
+		preview: 'https://catherineagl.github.io/tesla-clone/',
 	},
 	{
 		title: 'Pokedex',
@@ -83,12 +85,12 @@ export const projects = [
 		preview: 'https://catherineagl.github.io/pokedex/',
 	},
 	{
-		title: 'Memory Card',
-		src: 'https://i.ibb.co/d7SvjC8/project-5.png',
+		title: 'Clima App',
+		src: 'https://i.ibb.co/xjBxS6K/project-3.png',
 		position: 'right',
-		tech: 'React.js',
-		code: 'https://github.com/catherineagl/memory-card',
-		preview: 'https://catherineagl.github.io/memory-card/',
+		tech: 'HTML, CSS, JavaScript, Webpack',
+		code: 'https://github.com/catherineagl/weather-app/',
+		preview: 'https://catherineagl.github.io/weather-app/',
 	},
 	{
 		title: 'Shopping Cart',
@@ -97,6 +99,14 @@ export const projects = [
 		tech: 'React.js / React Router',
 		code: 'https://github.com/catherineagl/shopping-cart',
 		preview: 'https://catherineagl.github.io/shopping-cart/',
+	},
+	{
+		title: 'Memory Card',
+		src: 'https://i.ibb.co/d7SvjC8/project-5.png',
+		position: 'right',
+		tech: 'React.js',
+		code: 'https://github.com/catherineagl/memory-card',
+		preview: 'https://catherineagl.github.io/memory-card/',
 	},
 ];
 
