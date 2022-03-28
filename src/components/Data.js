@@ -49,8 +49,6 @@ export const skills = [
 	{ name: 'Styled Components', icon: styledCom },
 ];
 
-//amazon clone
-//https://clone-ffc70.web.app/
 export const projects = [
 	{
 		title: 'Amazon Clone',
@@ -101,12 +99,12 @@ export const projects = [
 		preview: 'https://catherineagl.github.io/shopping-cart/',
 	},
 	{
-		title: 'Memory Card',
-		src: 'https://i.ibb.co/d7SvjC8/project-5.png',
+		title: 'Facebook Clone',
+		src: 'https://i.ibb.co/3NPNJj8/facebook-clone.png',
 		position: 'right',
-		tech: 'React.js',
-		code: 'https://github.com/catherineagl/memory-card',
-		preview: 'https://catherineagl.github.io/memory-card/',
+		tech: 'React.js / redux / firebase',
+		code: 'https://github.com/catherineagl/facebook-clone',
+		preview: 'https://facebook-clone-df941.web.app/',
 	},
 ];
 
@@ -160,3 +158,9 @@ export const certificates = [
 		img: 'https://i.ibb.co/z5X1YVZ/certificate-1.png',
 	},
 ];
+
+const texts = {
+	spanish: {
+		title: 'Catherine Aguilera',
+	},
+};
