@@ -33,7 +33,7 @@ const ContactSection = () => {
 
 				<Input type="email" id="email" name="email" required />
 
-				<Label htmlFor="subject">Email</Label>
+				<Label htmlFor="subject">Mensaje</Label>
 
 				<Textarea placeholder="Asunto" name="subject" id="subject"></Textarea>
 				<SubmitBtn type="submit">Enviar</SubmitBtn>

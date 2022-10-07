@@ -35,7 +35,7 @@ const HeroSection = () => {
 						data-aos-easing="linear"
 						data-aos-delay="400"
 					>
-						Desarrolladora Frontend
+						Programadora
 					</HeroP>
 					<TypeWriterEffect
 						textStyle={{

@@ -9,6 +9,7 @@ import {
 	TextWrapper,
 	Title,
 } from './AboutElements';
+import img from '../../images/img.jpg';
 
 const AboutSection = () => {
 	return (
@@ -20,11 +21,12 @@ const AboutSection = () => {
 
 			<AboutWrapper data-aos="flip-right" data-aos-delay="400">
 				<ImgContainer>
-					<Img src="https://i.ibb.co/rb4w1p2/img.jpg" alt="person" />
+					<Img src={img} alt="person" />
+					{/* <Img src="https://i.ibb.co/rb4w1p2/img.jpg" alt="person" /> */}
 				</ImgContainer>
 				<TextWrapper>
 					<InfoP>
-						Mi nombre es Catherine, soy una desarrolladora Web Frontend y me
+						Mi nombre es Catherine, soy una desarrolladora Web y me
 						encanta trabajar con tecnologías JavaScript. Ahora mismo estoy
 						enfocada en aprender todo lo relacionado con el Desarrollo Web.
 						También me apasiona explorar nuevas tecnologías que puedo aprovechar

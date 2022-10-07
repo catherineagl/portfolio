@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { mainColor, secondColor } from '../Colors';
+import bg from '../../images/bg.jpg';
 
 export const HeroContainer = styled.div`
 	display: flex;
@@ -8,7 +9,9 @@ export const HeroContainer = styled.div`
 	justify-content: center;
 	position: relative;
 	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
-		url('https://i.ibb.co/JnxZYP8/bg.jpg');
+		url(${bg});
+	/* background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+		url('https://i.ibb.co/JnxZYP8/bg.jpg'); */
 	background-repeat: no-repeat;
 	background-clip: border-box;
 	background-size: cover;
@@ -16,6 +19,10 @@ export const HeroContainer = styled.div`
 	height: 100vh;
 	width: 100vw;
 	overflow: hidden;
+
+	@media screen and (max-width: 768px) {
+		padding-top: 2rem;
+	}
 `;
 
 export const HeroContent = styled.div`
@@ -179,7 +186,7 @@ export const SkillItem = styled.li`
 	padding: 0.2rem 0;
 	padding-left: 2rem;
 	letter-spacing: 1px;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	font-weight: 400;
 	text-align: left;
 	color: #fff;

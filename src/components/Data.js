@@ -1,12 +1,13 @@
-/* //projects images
+//projects images
 import p1 from '../images/project-1.png';
 import p2 from '../images/project-2.png';
 import p3 from '../images/project-3.png';
 import p4 from '../images/project-4.png';
 import p5 from '../images/project-5.png';
 import p6 from '../images/project-6.png';
+import p7 from '../images/project-7.png';
 //certificates images
-import c1 from '../images/certificate-1.png';
+/* import c1 from '../images/certificate-1.png';
 import c2 from '../images/certificate-2.png';
 import c3 from '../images/certificate-3.png';
 import c4 from '../images/certificate-4.png';
@@ -32,6 +33,9 @@ import npm from '../images/npm-icon.svg';
 import git from '../images/git-icon.svg';
 import firebase from '../images/firebase-icon.svg';
 import webpack from '../images/webpack-icon.svg';
+import java from '../images/java-icon.svg';
+import php from '../images/php-icon.svg';
+import node from '../images/nodejs-icon.svg';
 
 export const skills = [
 	{ name: 'HTML', icon: html },
@@ -40,19 +44,23 @@ export const skills = [
 	{ name: 'TypeScript', icon: ts },
 	{ name: 'React.js', icon: react },
 	{ name: 'Redux', icon: redux },
+	{name: 'Node.js', icon:node},
 	{ name: 'npm', icon: npm },
-	{ name: 'Git', icon: git },
+	{name: 'PHP', icon:php},
+	{name: 'Java', icon:java},
 	{ name: 'Firebase', icon: firebase },
-	{ name: 'Webpack', icon: webpack },
-	{ name: 'Sass', icon: sass },
+	{ name: 'Git', icon: git },
 	{ name: 'Bootstrap', icon: bs },
+	{ name: 'Sass', icon: sass },
+	{ name: 'Webpack', icon: webpack },
 	{ name: 'Styled Components', icon: styledCom },
 ];
 
 export const projects = [
 	{
 		title: 'Amazon Clone',
-		src: 'https://i.ibb.co/ts47cYf/project-7.png',
+		/* src: 'https://i.ibb.co/ts47cYf/project-7.png', */
+		src: p7,
 		position: 'right',
 		tech: 'React.js / Firebase / Stripe',
 		code: 'https://github.com/catherineagl/amazon-clone',
@@ -60,7 +68,8 @@ export const projects = [
 	},
 	{
 		title: 'Disney+ Clone',
-		src: 'https://i.ibb.co/K2z3fBx/project-2.png',
+		/* src: 'https://i.ibb.co/K2z3fBx/project-2.png', */
+		src: p2,
 		position: 'left',
 		tech: 'React.js / Redux / Firebase',
 		code: 'https://github.com/catherineagl/disney-plus-clone',
@@ -68,7 +77,8 @@ export const projects = [
 	},
 	{
 		title: 'Tesla Clone',
-		src: 'https://i.ibb.co/L5BbhVT/project-1.png',
+		/* src: 'https://i.ibb.co/L5BbhVT/project-1.png', */
+		src: p1,
 		position: 'right',
 		tech: 'React.js / Redux',
 		code: 'https://github.com/catherineagl/tesla-clone',
@@ -76,7 +86,8 @@ export const projects = [
 	},
 	{
 		title: 'Pokedex',
-		src: 'https://i.ibb.co/PzwJX5f/project-4.png',
+		/* src: 'https://i.ibb.co/PzwJX5f/project-4.png', */
+		src: p4,
 		position: 'left',
 		tech: 'HTML / CSS / JavaScript / Webpack',
 		code: 'https://github.com/catherineagl/pokedex',
@@ -84,7 +95,8 @@ export const projects = [
 	},
 	{
 		title: 'Clima App',
-		src: 'https://i.ibb.co/xjBxS6K/project-3.png',
+		/* src: 'https://i.ibb.co/xjBxS6K/project-3.png', */
+		src: p3,
 		position: 'right',
 		tech: 'HTML / CSS / JavaScript / Webpack',
 		code: 'https://github.com/catherineagl/weather-app/',
@@ -92,7 +104,8 @@ export const projects = [
 	},
 	{
 		title: 'Shopping Cart',
-		src: 'https://i.ibb.co/F0xN28n/project-6.png',
+		/* src: 'https://i.ibb.co/F0xN28n/project-6.png', */
+		src: p6,
 		position: 'left',
 		tech: 'React.js / React Router',
 		code: 'https://github.com/catherineagl/shopping-cart',

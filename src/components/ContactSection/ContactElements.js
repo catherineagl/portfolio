@@ -1,10 +1,13 @@
 import styled from 'styled-components';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { secondColor } from '../Colors';
+import bg from '../../images/bg.jpg';
 
 export const ContactContainer = styled.section`
+	/* background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+		url('https://i.ibb.co/JnxZYP8/bg.jpg'); */
 	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
-		url('https://i.ibb.co/JnxZYP8/bg.jpg');
+		url(${bg});
 	background-size: cover;
 	background-attachment: fixed;
 

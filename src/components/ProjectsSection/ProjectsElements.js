@@ -1,9 +1,12 @@
 import styled from 'styled-components';
 import { mainColor, mainColorBg } from '../Colors';
+import bg from '../../images/bg.jpg';
 
 export const ProjectsContainer = styled.section`
 	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
-		url('https://i.ibb.co/JnxZYP8/bg.jpg');
+		url(${bg});
+	/* background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+		url('https://i.ibb.co/JnxZYP8/bg.jpg'); */
 	background-repeat: no-repeat;
 	background-clip: border-box;
 	background-size: cover;
@@ -69,7 +72,7 @@ export const Link = styled.a`
 	color: white;
 	transform: translateY(-150%);
 	text-decoration: none;
-	transition: none.3s ease-in-out;
+	transition: all .3s ease-in-out;
 	&:hover {
 		background-color: white;
 		color: #010606;
