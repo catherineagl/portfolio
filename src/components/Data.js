@@ -56,17 +56,19 @@ export const skills = [
 	{ name: 'Webpack', icon: webpack },
 	{ name: 'Styled Components', icon: styledCom },
 ];
-
-export const projects = [
+/*
 	{
 		title: 'MasterBets365',
-		/* src: 'https://i.ibb.co/ts47cYf/project-7.png', */
+		/* src: 'https://i.ibb.co/ts47cYf/project-7.png', 
 		src: p8,
 		position: 'right',
 		tech: 'React.js / PHP / Node',
 		code: '#',
 		preview: 'https://www.masterbets365.com/',
 	},
+*/
+export const projects = [
+
 	{
 		title: 'Amazon Clone',
 		/* src: 'https://i.ibb.co/ts47cYf/project-7.png', */
