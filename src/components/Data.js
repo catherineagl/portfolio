@@ -6,6 +6,7 @@ import p4 from '../images/project-4.png';
 import p5 from '../images/project-5.png';
 import p6 from '../images/project-6.png';
 import p7 from '../images/project-7.png';
+import p8 from '../images/project-8.png';
 //certificates images
 /* import c1 from '../images/certificate-1.png';
 import c2 from '../images/certificate-2.png';
@@ -58,10 +59,19 @@ export const skills = [
 
 export const projects = [
 	{
+		title: 'MasterBets365',
+		/* src: 'https://i.ibb.co/ts47cYf/project-7.png', */
+		src: p8,
+		position: 'right',
+		tech: 'React.js / PHP / Node',
+		code: '#',
+		preview: 'https://www.masterbets365.com/',
+	},
+	{
 		title: 'Amazon Clone',
 		/* src: 'https://i.ibb.co/ts47cYf/project-7.png', */
 		src: p7,
-		position: 'right',
+		position: 'left',
 		tech: 'React.js / Firebase / Stripe',
 		code: 'https://github.com/catherineagl/amazon-clone',
 		preview: 'https://clone-ffc70.web.app/',
@@ -70,7 +80,7 @@ export const projects = [
 		title: 'Disney+ Clone',
 		/* src: 'https://i.ibb.co/K2z3fBx/project-2.png', */
 		src: p2,
-		position: 'left',
+		position: 'right',
 		tech: 'React.js / Redux / Firebase',
 		code: 'https://github.com/catherineagl/disney-plus-clone',
 		preview: 'https://disney-plus-2a96b.web.app/',
@@ -79,7 +89,7 @@ export const projects = [
 		title: 'Tesla Clone',
 		/* src: 'https://i.ibb.co/L5BbhVT/project-1.png', */
 		src: p1,
-		position: 'right',
+		position: 'left',
 		tech: 'React.js / Redux',
 		code: 'https://github.com/catherineagl/tesla-clone',
 		preview: 'https://catherineagl.github.io/tesla-clone/',
@@ -88,7 +98,7 @@ export const projects = [
 		title: 'Pokedex',
 		/* src: 'https://i.ibb.co/PzwJX5f/project-4.png', */
 		src: p4,
-		position: 'left',
+		position: 'right',
 		tech: 'HTML / CSS / JavaScript / Webpack',
 		code: 'https://github.com/catherineagl/pokedex',
 		preview: 'https://catherineagl.github.io/pokedex/',
@@ -97,28 +107,11 @@ export const projects = [
 		title: 'Clima App',
 		/* src: 'https://i.ibb.co/xjBxS6K/project-3.png', */
 		src: p3,
-		position: 'right',
+		position: 'left',
 		tech: 'HTML / CSS / JavaScript / Webpack',
 		code: 'https://github.com/catherineagl/weather-app/',
 		preview: 'https://catherineagl.github.io/weather-app/',
-	},
-	{
-		title: 'Shopping Cart',
-		/* src: 'https://i.ibb.co/F0xN28n/project-6.png', */
-		src: p6,
-		position: 'left',
-		tech: 'React.js / React Router',
-		code: 'https://github.com/catherineagl/shopping-cart',
-		preview: 'https://catherineagl.github.io/shopping-cart/',
-	},
-	{
-		title: 'Facebook Clone',
-		src: 'https://i.ibb.co/3NPNJj8/facebook-clone.png',
-		position: 'right',
-		tech: 'React.js / Redux / firebase',
-		code: 'https://github.com/catherineagl/facebook-clone',
-		preview: 'https://facebook-clone-df941.web.app/',
-	},
+	}
 ];
 
 export const certificates = [
